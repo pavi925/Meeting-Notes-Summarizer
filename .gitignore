@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Env / secrets
+.env
+
+# Model caches (can be multiple GB — never commit)
+models/
+.cache/
+*.pt
+*.bin
+*.ckpt
+
+# Audio inputs / generated outputs (don't commit user data)
+audio_samples/
+*.mp3
+*.wav
+*.m4a
+outputs/
+notes_*.md
+notes_*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
