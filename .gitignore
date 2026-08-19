@@ -17,10 +17,10 @@ models/
 *.ckpt
 
 # Audio inputs / generated outputs (don't commit user data)
-audio_samples/
-*.mp3
 *.wav
 *.m4a
+*.mpeg
+*.mp3
 outputs/
 notes_*.md
 notes_*.json
@@ -32,3 +32,5 @@ notes_*.json
 
 # Streamlit
 .streamlit/secrets.toml
+
+
